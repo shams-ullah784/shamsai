@@ -1,0 +1,23 @@
+{
+  "name": "shamsai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShamsAI - a fast, private AI assistant with Google & Apple sign-in, dark/light themes and a 3D interface.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "firebase": "^11.0.0",
+    "firebase-admin": "^13.0.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}
